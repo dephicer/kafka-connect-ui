@@ -27,7 +27,7 @@ ADD Caddyfile /caddy/Caddyfile.template
 ADD run.sh /
 RUN chmod +x /run.sh
 
-EXPOSE 8000
+EXPOSE 8002
 
 # USER nobody:nogroup
 ENTRYPOINT ["/run.sh"]
